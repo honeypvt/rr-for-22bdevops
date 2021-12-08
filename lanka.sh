@@ -5,4 +5,4 @@ chkconfig httpd on
 cd /var/www/html
 echo "Welcome to Webserver3" > index.html
 service httpd restart
-
+service httpd status
